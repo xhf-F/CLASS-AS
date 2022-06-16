@@ -1,0 +1,23 @@
+#### modified model setting for lcdm  
+
+params_ewcdm = {'output': 'mPk, dTk',
+                'P_k_max_1/Mpc': 3.0,
+                'Omega_Lambda': 0.,
+                'non_linear': 'halofit',
+                'modes': 's', #
+                'A_s': 2.3e-9, #
+                'n_s': 0.9616, #
+                'z_max_pk': '0.5',
+                'Omega_cdm': '0.25',
+                'Omega_b': '0.05',
+                'background_verbose': '2',
+                'H0': '67.32',
+                'fluid_equation_of_state': 'CLP',
+                'w0_fld': -0.99,
+                'wa_fld': 0.,
+                'e_pi': 0., #from 0.5 to 0
+                'f_pi': 0., #from 8.0 to 0
+                'log10ceff2': -5.0,
+                'log10g_pi': 10.0,
+                'use_ppf': 'no',
+                'gauge': 'newtonian'}
